@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UieIZXYhP2j0eaFr1Cup8i1hDZA4Aeb0u5gRJZYy4Ds=",
+  "Hash": "V4C2a0RpN/X1UshvNoUnkkqMS1gAbvZUmLW1VWX1y94=",
   "Source": "Website1",
   "BasePath": "_content/Website1",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\keene\\source\\repos\\Website\\Website1\\wwwroot\\documents\\Resume of Tan Keene.pdf",
+      "SourceId": "Website1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keene\\source\\repos\\Website\\Website1\\wwwroot\\",
+      "BasePath": "_content/Website1",
+      "RelativePath": "documents/Resume of Tan Keene.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\Resume of Tan Keene.pdf"
     },
     {
       "Identity": "C:\\Users\\keene\\source\\repos\\Website\\Website1\\wwwroot\\favicon.ico",

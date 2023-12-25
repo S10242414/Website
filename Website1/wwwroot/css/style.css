@@ -339,6 +339,24 @@ main {
     border-radius: 8px;
 }
 
+.resume-button {
+    display: block;
+    padding: 8px 14px;
+    background-color: var(--jet);
+    color: var(--orange-yellow-crayola);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: var(--fs-5);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .resume-button:hover {
+        background-color: var(--orange-yellow-crayola);
+        color: var(--jet);
+    }
+
+
 .info_more-btn {
     position: absolute;
     top: -15px;
@@ -875,11 +893,34 @@ main {
 
 /**
  * skills 
- */
+    */
 
 .skills-title {
     margin-bottom: 20px;
 }
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between categories as needed */
+    justify-content: space-between; /* Distribute categories evenly */
+}
+
+.category {
+    flex: 1 1 calc(45% - 20px); /* Adjust the width of each category box as needed */
+    background-color: var(--dark-gray); /* Added background color for better visibility */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.category-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+
+}
+
 
 .skills-list {
     padding: 20px;
@@ -915,10 +956,7 @@ main {
     height: 100%;
     border-radius: inherit;
 }
-
-
-
-
+     
 
 /*-----------------------------------*\
   #PORTFOLIO
@@ -1024,6 +1062,7 @@ main {
     border-radius: 16px;
     overflow: hidden;
     margin-bottom: 15px;
+    justify-content: space-between;
 }
 
     .project-img::before {
@@ -1042,6 +1081,15 @@ main {
     background: hsla(0, 0%, 0%, 0.5);
 }
 
+.project-item-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px; /* Adjust the gap between icons as needed */
+}
+
 .project-item-icon-box {
     --scale: 0.8;
     background: var(--jet);
@@ -1053,9 +1101,10 @@ main {
     font-size: 20px;
     padding: 18px;
     border-radius: 12px;
-    opacity: 0;
+    opacity: 0  ;
     z-index: 1;
     transition: var(--transition-1);
+    gap: 5px;
 }
 
 .project-item > a:hover .project-item-icon-box {
@@ -1096,9 +1145,32 @@ main {
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
 }
+/*
+.second-icon-box {
+    --scale: 0.8;
+    background: var(--jet);
+    color: var(--orange-yellow-crayola);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(var(--scale));
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 12px;
+    opacity: 0;
+    z-index: 1;
+    transition: var(--transition-1);
+    gap: 5px;
+}
 
+.project-item > a:hover .second-icon-box {
+    --scale: 1;
+    opacity: 1;
+}
 
-
+.second-icon-box ion-icon {
+    --ionicon-stroke-width: 50px;
+}*/
 
 
 /*-----------------------------------*\
