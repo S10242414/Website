@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V4C2a0RpN/X1UshvNoUnkkqMS1gAbvZUmLW1VWX1y94=",
+  "Hash": "GtG5S4q13SSzj8Bjx7+uUyfQ7tiok1Z8sB5zUTCjo9k=",
   "Source": "Website1",
   "BasePath": "_content/Website1",
   "Mode": "Default",
@@ -440,23 +440,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo.ico"
-    },
-    {
-      "Identity": "C:\\Users\\keene\\source\\repos\\Website\\Website1\\wwwroot\\images\\logo.svg",
-      "SourceId": "Website1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\keene\\source\\repos\\Website\\Website1\\wwwroot\\",
-      "BasePath": "_content/Website1",
-      "RelativePath": "images/logo.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
       "Identity": "C:\\Users\\keene\\source\\repos\\Website\\Website1\\wwwroot\\images\\logo-1-color.png",
